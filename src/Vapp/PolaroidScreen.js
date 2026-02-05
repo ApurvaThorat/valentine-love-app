@@ -1,13 +1,18 @@
 import React from "react";
 import Hearts from "./Hearts";
-
+import img1 from './Assets/img1.jpeg'
+import img2 from './Assets/img2.jpeg'
+import img3 from './Assets/img3.jpeg'
+import img4 from './Assets/img4.jpeg'
+import img5 from './Assets/img5.jpeg'
+import img6 from './Assets/img6.jpeg'
 const photos = [
-  { img: "/p1.jpg", caption: "Sweet hello" },
-  { img: "/p2.jpg", caption: "True smile" },
-  { img: "/p3.jpg", caption: "Perfect day" },
-  { img: "/p4.jpg", caption: "Only us" },
-  { img: "/p5.jpg", caption: "My home" },
-  { img: "/p6.jpg", caption: "Forever us" },
+  { img: img1, caption: "Sweet hello" },
+  { img: img2, caption: "True smile" },
+  { img: img3, caption: "Perfect day" },
+  { img: img4, caption: "Only us" },
+  { img: img5, caption: "My home" },
+  { img: img6, caption: "Forever us" },
 ];
 
 export default function PolaroidScreen({ onBack }) {

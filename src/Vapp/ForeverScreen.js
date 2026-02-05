@@ -1,5 +1,5 @@
 import React from "react";
-
+import vid from "./Assets/valentines.MOV"
 export default function ForeverScreen({ onRestart }) {
   return (
     <div className="app">
@@ -8,7 +8,7 @@ export default function ForeverScreen({ onRestart }) {
 
         <div className="video-box">
           <video controls>
-            <source src="/our-video.mp4" type="video/mp4" />
+            <source src={vid} type="video/mp4" />
             Your browser does not support the video tag.
           </video>
         </div>
